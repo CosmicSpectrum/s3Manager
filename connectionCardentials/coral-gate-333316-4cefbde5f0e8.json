@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "coral-gate-333316",
+  "private_key_id": "4cefbde5f0e8922cd67b3a952687ffea3f2cbca0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDHfii96XqK4FJu\nVIC+x1y7xoOdr9wXWs5nAyG948CBO0o3yfqERafuP+aF5d6jbEIMmRsMN+v8UsbY\nVV4AJ8n1t2JmrvojD3lgZMeoDgaxK/+hcaZsTzThXb61ejvF8SkDl1USoby2nJR7\nAZGDVa3nO9OhLfwWWrrJ00eamQW1Z9EDG1Ga9JG3adySQZVvCSOEegFzCymbpOw1\nOfndmiQAwcpbz9WN0Ln1nIjNuT550Yi/Nog2mDvTkru6WKHMJOi6i5Pex4RNeYJs\nBTL/oAhco6Qxh/3LxFz3iWFaBdjejxP9KbAx9YJk9ALYVWa9zgJGqenquIevQaUG\neWyEOUHvAgMBAAECggEAAsg9pThmXx11yNgg24hIQM4p878KIMFBc6pVhCJzAtpi\n1JhaiBG4n9gATQnBqyHNYgOYnvkAr4ov/8BhCTuE04p1Mt1p26dRmAiPyEY5zarB\na+z71zLbl/EIwdssjjwoyEYKB7J9wUY5w+VntB8zx6/L6cmMZHtrc3kg3IUZ0UfV\nEmnMZN1kC3rfWO4ziJTcNYawidASN9Al2cL5/RHtyMvb9SoVrm9EKGPSyX9CaLZH\nKAJuAjBqKjmojQJYCI6KY2ybaHXxxv1uNUOCwjJk5lwc9ZuZ7/brYKTt1/kBT18n\nBjI+rA1rZip2haZa5wTPGgrH4HmQY9+Gf847dunpUQKBgQDmasEnLpldMsEPBqRU\nxu9FGu6TFTAdR4Q868fQr+bdUQ+fDf9L3DFGRCJRQu47OZRRNKadwMHUXewZmts0\n3WRvrAencerXA2xJ5U5GM9fHrNQQ2tqCk5ue7vfAaXcEOt9XbX4SE57oNYTcPIEt\nKzmktmDhzJKLCby9iaOLAhfjswKBgQDdpG6qhIEK0kRMwqNI1wukmyYFeSIuiB8Z\nL3I7F1EBlOhLgeYl1lQ4+J/6rGP3fslML+4FLOVuAJ+xnvWSNkshreLrkOUDS2TV\nLkkf2pWHnilk7BZciAYyHKY37zMprjNETlWq61YyG93fb1RZrYx9QVVg1Xtzj7Is\nk5kGuBT61QKBgGhRdsdtgoO+YceSwz2an2NTESZIFnN7GHSYbuudZ9FVTNQ++xF2\nTFy6pirSOZdYtzyYsMKFLXwfVbA1+v6RKVKhuQlnOuJDq3g9N9XyzMObDJvg6cLq\nXy9yk3pqhTbGDK3BZa17cptA97jaL8WqZzuaUnyIKOSH8QqC0SczOGufAoGBALEi\nzlM3LM6SN4XFdKwtOZ/nYx6yre/UWE5PjhLN0q7Z7EEUYvRQc+VIRssXZZmSWZyr\nHaZDOGWO2BIjwY2GGMuk5htwJKdaZQ6/PC/aCPFnJRwEVubCy3jXTrybTh98mnp3\nxJ2iEbRgcxU0K4y0V/hu86Y9V7mG2VYo6/7jtdi1AoGBAM1x1ZiNXz2617IoYY9v\nJP2CUjO8mBSTcZJoQxnnh6CDbcLl6wUE6G/U0BSqNJfNB2393xrKGF+KKE5h1PfR\ntlrEw7GEON328NAWPJ5y8OZ+IlEvkIfIPRNjLTD2Gf4inM0568DSbrHvyKfRUjoc\n2d6Jk4qqjsp4laoIqn5D0mrx\n-----END PRIVATE KEY-----\n",
+  "client_email": "auctionplatform@coral-gate-333316.iam.gserviceaccount.com",
+  "client_id": "104774328324986826765",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/auctionplatform%40coral-gate-333316.iam.gserviceaccount.com"
+}

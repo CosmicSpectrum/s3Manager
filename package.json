@@ -1,0 +1,23 @@
+{
+  "name": "filestorage",
+  "version": "1.0.0",
+  "description": "js package lib to manage uploading to google cloud storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CosmicSpectrum/auctionPlatform-googleObjectStoragePackage.git"
+  },
+  "author": "Harel Dagan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CosmicSpectrum/auctionPlatform-googleObjectStoragePackage/issues"
+  },
+  "homepage": "https://github.com/CosmicSpectrum/auctionPlatform-googleObjectStoragePackage#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.16.0",
+    "jsdoc": "^3.6.7"
+  }
+}
