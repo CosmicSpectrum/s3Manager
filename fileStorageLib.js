@@ -1,27 +1,38 @@
-const {Storage} =require('@google-cloud/storage');
+const AWS = require('aws-sdk');
+const { v4: uuidv4 } = require('uuid');
 
-module.exports = class FileStorageLib{
+module.exports = class s3Managment{
     /**
      * Creates an object with the endpoint info
-     * @param {*} endpoint string of the endpoint
      */
-    constructor(){
-        this.connection = new Storage({projectId: "auctionPlatform",
-            keyFilename: "./connectionCardentials/coral-gate-333316-4cefbde5f0e8.json"
-        });
+    constructor(accessKeyId,secretAccessKey,bucket){
+        this.s3Bucket = new AWS.S3({
+            accessKeyId: accessKeyId,
+            secretAccessKey: secretAccessKey,
+            Bucket: bucket
+        })
     }
 
     /**
-     * This function will create a new bucket in the storage
-     * @param {*} bucketName The bucket name
+     * this function will upload data to the s3 bucket
+     * @param {*} file file buffer
+     * @param {*} bucketName bucket name as a string
+     * @returns 
      */
-    createBucket(bucketName){
+    upload(file,bucketName){
         return new Promise((resolve,reject)=>{
-            this.connection.createBucket(bucketName,(err,result)=>{
+            const params = {
+                Bucket: bucketName,
+                Key: uuidv4(),
+                Body: file
+            }
+            this.s3Bucket.upload(params,(err,data)=>{
                 if(err)
                     reject(err)
-                resolve(result)
+                resolve(data)
             })
         })
     }
+    download(){}
+    delete(){}
 }
